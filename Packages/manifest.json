@@ -4,7 +4,6 @@
     "com.unity.render-pipelines.high-definition": "14.0.4",
     "com.unity.timeline": "1.7.2",
     "jp.keijiro.klak.motion": "1.0.2",
-    "jp.keijiro.metamesh": "1.1.1",
     "jp.keijiro.metatex": "1.0.4"
   },
   "scopedRegistries": [
