@@ -20,7 +20,7 @@ MonoBehaviour:
     x: 941
     y: -190
     width: 424
-    height: 2277
+    height: 2042
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -143,10 +143,10 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614629}
+  - {fileID: 8926484042661614721}
   - {fileID: 8926484042661614667}
   - {fileID: 8926484042661614626}
   - {fileID: 8926484042661614700}
-  - {fileID: 8926484042661614721}
   - {fileID: 8926484042661614757}
   m_UIPosition: {x: 941, y: 198}
   m_UICollapsed: 0
@@ -472,7 +472,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614746}
-  m_UIPosition: {x: 941, y: 1248}
+  m_UIPosition: {x: 941, y: 1093}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -508,7 +508,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614648}
-  m_UIPosition: {x: 941, y: 1688}
+  m_UIPosition: {x: 941, y: 1453}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -1305,7 +1305,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Position, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":-4.0,"y":1.2999999523162842,"z":-1.0}}'
+      m_SerializableObject: '{"position":{"x":-4.0,"y":1.0,"z":-1.0}}'
     m_Space: 0
   m_Property:
     name: A
@@ -1475,7 +1475,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Position, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":-4.0,"y":0.4000000059604645,"z":1.0}}'
+      m_SerializableObject: '{"position":{"x":-4.0,"y":-1.0,"z":1.0}}'
     m_Space: 0
   m_Property:
     name: B
@@ -1708,7 +1708,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Vector, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"vector":{"x":0.10000000149011612,"y":0.0,"z":0.0}}'
+      m_SerializableObject: '{"vector":{"x":0.10000000149011612,"y":-0.009999999776482582,"z":0.0}}'
     m_Space: 0
   m_Property:
     name: A
@@ -1878,7 +1878,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Vector, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"vector":{"x":0.30000001192092898,"y":0.0,"z":0.0}}'
+      m_SerializableObject: '{"vector":{"x":0.30000001192092898,"y":0.009999999776482582,"z":0.0}}'
     m_Space: 0
   m_Property:
     name: B
