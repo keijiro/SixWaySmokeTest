@@ -645,7 +645,7 @@ MonoBehaviour:
   m_Name: RecorderClip
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 4
+  take: 5
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -734,8 +734,8 @@ MonoBehaviour:
     - rid: 3701852722592743425
       type: {class: AccumulationSettings, ns: , asm: Unity.Recorder.Editor}
       data:
-        captureAccumulation: 0
-        samples: 1
+        captureAccumulation: 1
+        samples: 16
         shutterInterval: 1
         shutterProfileType: 0
         shutterProfileCurve:
@@ -762,8 +762,8 @@ MonoBehaviour:
           m_PreInfinity: 2
           m_PostInfinity: 2
           m_RotationOrder: 4
-        shutterFullyOpen: 0.25
-        shutterBeginsClosing: 0.75
+        shutterFullyOpen: 0
+        shutterBeginsClosing: 1
         useSubPixelJitter: 1
     - rid: 3701852722592743426
       type: {class: ProResEncoderSettings, ns: UnityEditor.Recorder.Encoder, asm: Unity.Recorder.Editor}
